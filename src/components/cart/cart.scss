@@ -1,0 +1,85 @@
+.table {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+  
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 1.4rem;
+  
+      thead {
+        border-top: 2px solid lightblue;
+        border-bottom: 2px solid lightblue;
+      }
+  
+      th {
+        border: 1px solid #eee;
+      }
+  
+      th,
+      td {
+        vertical-align: top;
+        text-align: left;
+        padding: 8px;
+        &.icons {
+          > * {
+            margin-right: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+  
+      tr {
+        border-bottom: 1px solid #ccc;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #eee;
+      }
+    }
+    .summary {
+      margin: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+  
+      .--btn{
+        background-color: red;
+        margin-top: 5px;
+        padding: 5px;
+        color: white;
+        border: none;
+
+      }
+      .cart-card {
+        padding: 1rem;
+        .text {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            color: red;
+          }
+        }
+        button {
+          margin-top: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .count {
+    display: flex;
+    align-items: center;
+    button {
+      padding: 5px;
+      background-color: rgba(0, 17, 255, 0.500);
+      border: 1px solid rgba(0, 17, 255, 0.500);
+      color: white;
+      cursor: pointer;
+    }
+    & > * {
+      margin-right: 1rem;
+    }
+  }

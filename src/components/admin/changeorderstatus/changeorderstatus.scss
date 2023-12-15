@@ -1,0 +1,22 @@
+.status {
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem 2rem ;
+  
+    form {
+      select {
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 300;
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 100%;
+        border: 1px solid #777;
+        border-radius: 3px;
+        outline: none;
+      }
+      button{
+        padding: 10px 50px;
+      }
+    }
+  }

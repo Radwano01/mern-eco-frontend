@@ -1,0 +1,27 @@
+.single-page-container{
+    height: 100%;
+    width: 100%;
+    a{
+        margin: 20px;
+    }
+    
+    .single-page{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        .left{
+            padding: 50px;
+            img{
+                width: 400px;
+                height: 600px;
+            }
+        }
+    
+        .right{
+            padding: 50px;
+            width: 400px;
+            height: 600px;
+        }
+    }
+}

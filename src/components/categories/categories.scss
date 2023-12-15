@@ -1,0 +1,31 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .category{
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: rgb(17, 0, 255);
+            padding: 20px;
+            h2{
+                position: relative;
+                top: -20px;
+                padding: 5px 50px;
+                transition: 1s;
+            }
+            h2:hover{
+                background-color: rgba(0, 17, 255, 0.500);
+                color: white;
+                
+            }
+
+            img{
+                width: 350px;
+                height: 200px;
+            }
+        }
+    }
+}

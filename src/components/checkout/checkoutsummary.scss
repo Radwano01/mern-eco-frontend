@@ -1,0 +1,15 @@
+.checkoutsummary-card {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid lightblue;
+    margin-bottom: 5px;
+}
+  
+.checkoutsummary-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      color: red;
+    }
+  }

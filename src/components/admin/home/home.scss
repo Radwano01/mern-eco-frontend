@@ -1,0 +1,23 @@
+.info-box {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .card-box {
+    border: 1px solid #ccc;
+    // border-bottom: 3px solid var(--light-blue);
+    padding: 5px;
+    background-color: #f5f6fa;
+  }
+  
+  .cardone-box {
+    border-bottom: 3px solid #b624ff;
+  }
+  .cardtwo-box {
+    border-bottom: 3px solid #1f93ff;
+  }
+  .cardthree-box {
+    border-bottom: 3px solid orangered;
+  }
